@@ -1,14 +1,15 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  font-family: 'PT Serif', serif;
-  font-weight:normal;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
   line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 /* font-family: 'PT Sans', sans-serif;
 font-family: 'PT Serif', serif; */
 
@@ -18,32 +19,60 @@ img {
 
 h1, h2 {
   color: #3f1622;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
 }
 
-ol {
+.nav-list {
   list-style-type: none;
-  }
+}
 
 dt {
   font-weight: bold;
 }
 
-.maincontent {
-  max-width: 40em;
-}
-
 figcaption {
   text-align: center;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
   font-style: italic;
   font-size: 1.5em;
   margin: 0;
 }
 
-header a {
-  font-family: 'PT Sans', sans-serif;
+a {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.5em;
   text-decoration: none;
   color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+.intro-line {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+strong {
+  font-weight: normal;
+}
+
+.serving {
+  font-style: italic;
+}
+
+small {
+  font-size: 1em;
+}
+
+.footer-link {
+  font-family: "PT Serif", serif;
+  font-size: 1em;
 }
